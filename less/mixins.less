@@ -1,1 +1,29 @@
-// Mixins Here
+//  ParametricMixins Here
+.myFlexDefaults(@justify,@align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+.myButtonDefaults(@padding,@margin,@width){
+    padding:@padding;
+    margin:@margin;
+    background-color:@btn-bg-color;
+    color:white;
+    border-radius: 0.5em;
+    width:@width;
+    text-align: center;
+}
+
+
+//mixins
+.myNavDefaults(){
+    padding:0.3em;
+    margin:0.2em;
+    font-size:1.5em;
+ }
+
+ .myHeaderDefaults(){
+    font-size: 2em;
+    padding: 0.3em;
+    margin: 0.3em;
+ }
