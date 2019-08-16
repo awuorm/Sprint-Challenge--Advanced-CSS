@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website uses fixed breakpoints to determine how a layout of a website will look like at different widths,an adaptive website only responds to changes at the specified widths in the breakpoints using media queries. A responsive website on the other hand takes different aspects of fluid, fixed and adaptive design to make the website to respond to different widths using viewpoints and media queries for a seamless experience even outside the specified widths in the breakpoints.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first refers to designing a website with its initial  use case being considered in a mobile device first, the breakpoints for a mobile first design is specified in min-width for the media queries. A desktop first design, is used when the initial use case is a desktop screen and the breakpoints for media queries is specified in max-width.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Specifying a font-size of 62.5% in the html tag allows for a developer to know the pixels being referenced by a rem unit i.e 4rem units becomes 40px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing refers to generating CSS from a different preprocessor syntax, there are more advanced syntaxes such as mixins,variables and nesting that allows a developer to style HTML elements more efficiently and allows for easier maintanance that would not be possible with vanilla CSS. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favourite preprocessing concept is parametric mixins. The concept that gives the most trouble is nesting.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
