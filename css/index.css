@@ -172,14 +172,9 @@ p {
   margin: 0.3em;
 }
 .nav-container a {
+  padding: 0.3em;
+  margin: 0.2em;
   font-size: 1.5em;
-  padding: 0.5em;
-  margin: 0.3em;
-}
-.header-img-wrapper img {
-  border-radius: 0.5em;
-  margin: 0.3em;
-  padding: 0.2em;
 }
 footer {
   color: #22283B;
@@ -233,6 +228,15 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  padding: 0.6em;
+  margin: 0.4em;
+  background-color: #22283A;
+  color: white;
+  border-radius: 0.5em;
+  width: 25%;
+  text-align: center;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -241,4 +245,9 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.header-img-wrapper img {
+  border-radius: 0.5em;
+  padding: 0.2em;
+  margin: 0.3em;
 }
