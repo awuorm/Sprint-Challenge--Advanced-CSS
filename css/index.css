@@ -176,6 +176,9 @@ p {
   margin: 0.2em;
   font-size: 1.5em;
 }
+.nav-container a:hover {
+  opacity: 0.2;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -253,6 +256,7 @@ footer {
   padding: 50px 60px;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 @media (max-width:500px) {
   .home .walk {
@@ -265,6 +269,7 @@ footer {
 @media (max-width:500px) {
   .home .walk .walk-text {
     width: 100%;
+    flex-shrink: 1;
   }
 }
 .home .walk .walk-text h3 {
@@ -304,6 +309,7 @@ footer {
 @media (max-width:500px) {
   .home .walk .walk-img {
     width: 100%;
+    flex-shrink: 1;
   }
 }
 .home .walk .walk-img img {
