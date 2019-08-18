@@ -4,25 +4,27 @@
     justify-content: @justify;
     align-items: @align;
 }
-.myButtonDefaults(@padding,@margin,@width){
+
+.myButtonDefaults(@padding,@margin,@width: 20%, @color: #fff){
     padding:@padding;
     margin:@margin;
     background-color:@btn-bg-color;
-    color:white;
+    color:@color;
     border-radius: 0.5em;
     width:@width;
     text-align: center;
+    cursor: pointer;
 }
 
 
 //mixins
-.myNavDefaults(){
+.myNavDefaults {
     padding:0.3em;
     margin:0.2em;
     font-size:1.5em;
  }
 
- .myHeaderDefaults(){
+ .myHeaderDefaults {
     font-size: 2em;
     padding: 0.3em;
     margin: 0.3em;
